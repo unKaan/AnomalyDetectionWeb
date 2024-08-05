@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.popup {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: lightyellow;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+}
